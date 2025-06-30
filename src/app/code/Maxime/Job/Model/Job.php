@@ -13,6 +13,6 @@ class Job extends AbstractModel
 
   protected function _construct()
   {
-    $this->_init(\Maxime\Job\Model\ResourceModel\Job::class);
+    $this->_init("Maxime\Job\Model\ResourceModel\Job");
   }
 }
