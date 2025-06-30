@@ -354,6 +354,7 @@ return [
         'Magento_Wishlist' => 1,
         'Magento_WishlistAnalytics' => 1,
         'Magento_WishlistGraphQl' => 1,
+        'MarkShust_DisableTwoFactorAuth' => 1,
         'Maxime_Helloworld' => 1,
         'Maxime_Job' => 1,
         'PayPal_Braintree' => 1,

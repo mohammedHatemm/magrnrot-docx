@@ -15,4 +15,13 @@ class Job extends AbstractModel
   {
     $this->_init("Maxime\Job\Model\ResourceModel\Job");
   }
+
+  public function getEnableStatus()
+  {
+    return 1;
+  }
+  public function getDisableStatus()
+  {
+    return 0;
+  }
 }
