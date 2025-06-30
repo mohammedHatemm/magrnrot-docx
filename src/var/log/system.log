@@ -1,0 +1,44 @@
+[2025-06-29T14:11:31.098731+00:00] main.INFO: Source table payment_services_order_status_data_production_submitted_hash does not exist. Skipping data migration... [] []
+[2025-06-29T14:16:37.433416+00:00] main.ERROR: crontab -l 2>/dev/null 2>&1
+no crontab for app [] []
+[2025-06-29T14:16:37.437141+00:00] main.ERROR: crontab -l 2>/dev/null 2>&1
+no crontab for app [] []
+[2025-06-29T14:16:37.465890+00:00] main.INFO: echo "
+#~ MAGENTO START 69dd2b02e1f3a65918182048ea4e29979a849d8942e8f53ed20a4bf10e529b36
+* * * * * /usr/local/bin/php /var/www/html/bin/magento cron:run 2>&1 | grep -v \"Ran jobs by schedule\" >> /var/www/html/var/log/magento.cron.log
+#~ MAGENTO END 69dd2b02e1f3a65918182048ea4e29979a849d8942e8f53ed20a4bf10e529b36
+" 2>&1 | crontab - 2>&1
+ [] []
+[2025-06-30T02:50:34.856109+00:00] main.ERROR: There are no commands defined in the "enable" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(720): Symfony\Component\Console\Application->findNamespace('enable')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('enable:module')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2025-06-30T02:50:45.415448+00:00] main.ERROR: There are no commands defined in the "enable" namespace.
+#0 /var/www/html/vendor/symfony/console/Application.php(720): Symfony\Component\Console\Application->findNamespace('enable')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('enable:module')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2025-06-30T07:30:33.862111+00:00] main.ERROR: There are no commands defined in the "setip" namespace.
+
+Did you mean one of these?
+    setup
+    setup:config
+    setup:db
+    setup:db-data
+    setup:db-declaration
+    setup:db-schema
+    setup:di
+    setup:performance
+    setup:static-content
+    setup:store-config
+#0 /var/www/html/vendor/symfony/console/Application.php(720): Symfony\Component\Console\Application->findNamespace('setip')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('setip:upgrade')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
