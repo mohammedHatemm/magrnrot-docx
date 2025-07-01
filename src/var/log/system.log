@@ -874,3 +874,576 @@ Did you mean one of these?
 [2025-06-30T12:23:17.071572+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
 [2025-06-30T12:23:23.603960+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
 [2025-06-30T12:24:00.664820+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T12:29:28.842401+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T12:40:40.580572+00:00] main.INFO: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T12:40:40.581462+00:00] main.ERROR: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T12:41:11.186221+00:00] main.INFO: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T12:41:11.186818+00:00] main.ERROR: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T12:49:09.856248+00:00] main.INFO: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T12:49:09.856869+00:00] main.ERROR: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T12:49:11.673182+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-06-30T12:56:18.003665+00:00] main.INFO: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T12:56:18.004394+00:00] main.ERROR: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T12:57:49.905067+00:00] main.INFO: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T12:57:49.905944+00:00] main.ERROR: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T12:58:45.479120+00:00] main.INFO: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T12:58:45.479820+00:00] main.ERROR: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T13:01:51.335484+00:00] main.INFO: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T13:01:51.336204+00:00] main.ERROR: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T13:02:41.238805+00:00] main.INFO: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T13:02:41.239442+00:00] main.ERROR: Theme layout update file '/var/www/html/app/code/Maxime/Job/view/adminhtml/layout/job_department_index.xml' is not valid.
+Premature end of data in tag page line 3
+ Line: 9 [] []
+[2025-06-30T13:04:39.122374+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:04:56.933834+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:05:22.850772+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:05:26.236486+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:22:25.735843+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.736438+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.736786+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.737115+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.737432+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.737778+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.738077+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.738405+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.738707+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.739008+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.739324+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.739632+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.739928+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.740240+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.740555+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.740861+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.741434+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.741739+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T13:22:25.742167+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-06-30T13:22:25.742451+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-06-30T13:22:25.742707+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-06-30T13:22:25.742957+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-06-30T13:22:25.743219+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-06-30T13:22:25.743531+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-06-30T13:22:25.743786+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-06-30T13:22:25.744061+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-06-30T13:22:50.102632+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:22:57.364443+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:23:02.878114+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:32:07.495823+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:32:19.774348+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:32:23.501796+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:38:56.438546+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:39:04.232317+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:39:07.691403+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:45:45.986028+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:46:00.077559+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T13:46:44.874151+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T14:24:46.356205+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/etc/adminhtml/routes.xml" is invalid:
+StartTag: invalid element name
+Line: 1
+
+XML declaration allowed only at the start of the document
+Line: 1
+
+Extra content at the end of the document
+Line: 2
+
+Verify the XML and try again. [] []
+[2025-06-30T14:30:59.989749+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/etc/adminhtml/routes.xml" is invalid:
+StartTag: invalid element name
+Line: 1
+
+XML declaration allowed only at the start of the document
+Line: 1
+
+Extra content at the end of the document
+Line: 2
+
+Verify the XML and try again. [] []
+[2025-06-30T14:38:53.807223+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.807661+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.807901+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.808088+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.808289+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.808473+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.808680+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.808854+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.809020+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.809204+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.809372+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.809535+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.809697+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.809858+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.810018+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.810195+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.810518+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.810692+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-06-30T14:38:53.810952+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-06-30T14:38:53.811131+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-06-30T14:38:53.811305+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-06-30T14:38:53.811470+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-06-30T14:38:53.811632+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-06-30T14:38:53.811832+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-06-30T14:38:53.812035+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-06-30T14:38:53.812285+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-06-30T14:39:14.505877+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T14:39:19.860416+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T14:39:52.769878+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T14:39:52.770308+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T14:40:28.516770+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T14:40:29.031642+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T14:40:29.032174+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T14:40:37.552736+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T14:40:38.044800+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T14:40:38.045253+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T14:41:49.697877+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T14:41:50.315367+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T14:41:50.315871+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T14:48:37.216466+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T14:48:37.888653+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T14:48:37.889291+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:00:00.876353+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:00:01.409567+00:00] main.ERROR: Class "Magento\Ui\Component\Listing\Columns\Actions" does not exist [] []
+[2025-06-30T15:01:22.904270+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:01:22.964769+00:00] main.ERROR: Class "Magento\Ui\Component\Listing\Columns\Actions" does not exist [] []
+[2025-06-30T15:02:22.907605+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:02:22.962831+00:00] main.ERROR: Class "Magento\Ui\Component\Listing\Columns\Actions" does not exist [] []
+[2025-06-30T15:03:18.172226+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:03:48.563813+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:03:48.569793+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:04:42.518470+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:04:44.318531+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:04:44.319138+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:06:38.277640+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:06:38.786850+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:06:38.787365+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:09:11.346921+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:09:12.257280+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:09:12.257827+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:09:19.992249+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:09:20.472415+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:09:20.472967+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:09:29.279722+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:09:29.681637+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:09:29.682221+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:19:11.963435+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:19:23.189522+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:19:23.189906+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:20:03.352513+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:20:04.058009+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:20:04.058582+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:20:08.823828+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:20:09.281898+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:20:09.282322+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:21:27.259089+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:21:28.448954+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:21:28.449650+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:24:20.445771+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:24:31.307969+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:24:31.309624+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:24:53.574856+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:25:01.795771+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:33:22.195194+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-06-30T15:33:22.947682+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:33:22.948328+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-06-30T15:49:12.083260+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/etc/adminhtml/routes.xml" is invalid:
+StartTag: invalid element name
+Line: 1
+
+XML declaration allowed only at the start of the document
+Line: 1
+
+Extra content at the end of the document
+Line: 2
+
+Verify the XML and try again. [] []
+[2025-06-30T15:49:14.770419+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/etc/adminhtml/routes.xml" is invalid:
+StartTag: invalid element name
+Line: 1
+
+XML declaration allowed only at the start of the document
+Line: 1
+
+Extra content at the end of the document
+Line: 2
+
+Verify the XML and try again. [] []
+[2025-06-30T15:49:25.237860+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/etc/adminhtml/routes.xml" is invalid:
+StartTag: invalid element name
+Line: 1
+
+XML declaration allowed only at the start of the document
+Line: 1
+
+Extra content at the end of the document
+Line: 2
+
+Verify the XML and try again. [] []
+[2025-06-30T15:49:47.965065+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/etc/adminhtml/routes.xml" is invalid:
+Element 'acl': This element is not expected. Expected is ( router ).
+Line: 3
+The xml was: 
+0:<?xml version="1.0"?>
+1:<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+2:    <acl>
+3:        <resources>
+4:            <resource id="Magento_Backend::admin">
+5:                <resource id="Maxime_Job::department" title="Departments" sortOrder="10"/>
+6:            </resource>
+7:        </resources>
+8:    </acl>
+9:</config>
+
+Verify the XML and try again. [] []
+[2025-06-30T15:50:20.399929+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/etc/adminhtml/routes.xml" is invalid:
+Element 'acl': This element is not expected. Expected is ( router ).
+Line: 3
+The xml was: 
+0:<?xml version="1.0"?>
+1:<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+2:    <acl>
+3:        <resources>
+4:            <resource id="Magento_Backend::admin">
+5:                <resource id="Maxime_Job::department" title="Departments" sortOrder="10"/>
+6:            </resource>
+7:        </resources>
+8:    </acl>
+9:</config>
+
+Verify the XML and try again. [] []
+[2025-07-01T07:48:03.339825+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/etc/adminhtml/routes.xml" is invalid:
+Element 'acl': This element is not expected. Expected is ( router ).
+Line: 3
+The xml was: 
+0:<?xml version="1.0"?>
+1:<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+2:    <acl>
+3:        <resources>
+4:            <resource id="Magento_Backend::admin">
+5:                <resource id="Maxime_Job::department" title="Departments" sortOrder="10"/>
+6:            </resource>
+7:        </resources>
+8:    </acl>
+9:</config>
+
+Verify the XML and try again. [] []
+[2025-07-01T07:48:28.380004+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/etc/adminhtml/routes.xml" is invalid:
+Element 'acl': This element is not expected. Expected is ( router ).
+Line: 3
+The xml was: 
+0:<?xml version="1.0"?>
+1:<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+2:    <acl>
+3:        <resources>
+4:            <resource id="Magento_Backend::admin">
+5:                <resource id="Maxime_Job::department" title="Departments" sortOrder="10"/>
+6:            </resource>
+7:        </resources>
+8:    </acl>
+9:</config>
+
+Verify the XML and try again. [] []
+[2025-07-01T07:51:11.156448+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.157196+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.157530+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.157895+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.158191+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.158498+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.158805+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.159093+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.159374+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.159655+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.159959+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.160250+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.160527+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.160820+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.161100+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.161380+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.161970+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.162297+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T07:51:11.162778+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T07:51:11.163099+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T07:51:11.163398+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T07:51:11.163688+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T07:51:11.163998+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-07-01T07:51:11.164349+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T07:51:11.164651+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T07:51:11.165002+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-07-01T07:51:11.603380+00:00] main.ERROR: The "/var/www/html/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-07-01T07:51:11.603858+00:00] main.CRITICAL: The "/var/www/html/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-07-01T07:51:30.366176+00:00] main.ERROR: Could not create an acl object: The XML in file "/var/www/html/app/code/Maxime/Job/etc/acl.xml" is invalid:
+Premature end of data in tag config line 3
+Line: 25
+
+Verify the XML and try again. [] []
+[2025-07-01T07:55:39.753828+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T07:55:39.859317+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/etc/adminhtml/menu.xml" is invalid:
+Premature end of data in tag config line 2
+Line: 11
+
+Verify the XML and try again. [] []
+[2025-07-01T07:57:11.894338+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T07:57:12.334682+00:00] main.ERROR: Invalid Document 
+Error in merged XML after reading /var/www/html/app/code/Maxime/Job/etc/adminhtml/menu.xml
+Element 'add': The attribute 'module' is required but missing.
+Line: 8
+The xml was: 
+3: * Copyright © Magento, Inc. All rights reserved.
+4: * See COPYING.txt for license details.
+5: */
+6:-->
+7:<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+8:    <menu>
+9:        <add id="Magento_Config::system_config" title="Configuration" translate="title" module="Magento_Config" sortOrder="20" parent="Magento_Backend::stores_settings" action="adminhtml/system_config" resource="Magento_Config::config"/>
+10:    <add id="Magento_AdminNotification::system_adminnotification" title="Notifications" translate="title" module="Magento_AdminNotification" sortOrder="10" parent="Magento_Backend::system_other_settings" action="adminhtml/notification" resource="Magento_AdminNotification::adminnotification"/><add id="Magento_Theme::design_config" title="Configuration" translate="title" module="Magento_Theme" sortOrder="10" parent="Magento_Backend::system_design" action="theme/design_config" resource="Magento_Config::config_design"/><add id="Magento_Theme::system_design_theme" title="Themes" translate="title" module="Magento_Theme" sortOrder="20" parent="Magento_Backend::system_design" action="adminhtml/system_design_theme" resource="Magento_Theme::theme"/><add id="Magento_Backend::system_design_schedule" title="Schedule" translate="title" module="Magento_Backend" sortOrder="30" parent="Magento_Backend::system_design" action="adminhtml/system_design" resource="Magento_Backend::schedule"/><add id="Magento_Backend::system_currency" title="Currency" translate="title" module="Magento_Backend" sortOrder="30" parent="Magento_Backend::stores" action="adminhtml/system_currency" resource="Magento_CurrencySymbol::system_currency"/><add id="Magento_Backend::system_store" title="All Stores" translate="title" module="Magento_Backend" sortOrder="10" parent="Magento_Backend::stores_settings" action="adminhtml/system_store/" resource="Magento_Backend::store"/><add id="Magento_Backend::dashboard" title="Dashboard" translate="title" module="Magento_Backend" sortOrder="10" action="adminhtml/dashboard" resource="Magento_Backend::dashboard"/><add id="Magento_Backend::system" title="System" translate="title" module="Magento_Backend" sortOrder="80" resource="Magento_Backend::system"/><add id="Magento_Backend::system_tools" title="Tools" translate="title" module="Magento_Backend" sortOrder="50" parent="Magento_Backend::system" resource="Magento_Backend::tools"/><add id="Magento_Backend::system_design" title="Design" translate="title" module="Magento_Backend" sortOrder="20" parent="Magento_Backend::content" resource="Magento_Backend::design"/><add id="Magento_Backend::system_convert" title="Data Transfer" translate="title" module="Magento_Backend" sortOrder="10" parent="Magento_Backend::system" resource="Magento_Backend::convert"/><add id="Magento_Backend::system_cache" title="Cache Management" translate="title" module="Magento_Backend" sortOrder="10" parent="Magento_Backend::system_tools" action="adminhtml/cache" resource="Magento_Backend::cache"/><add id="Magento_Backend::marketing" title="Marketing" translate="title" module="Magento_Backend" sortOrder="40" resource="Magento_Backend::marketing"/><add id="Magento_Backend::marketing_communications" title="Communications" translate="title" module="Magento_Backend" sortOrder="30" parent="Magento_Backend::marketing" resource="Magento_Backend::marketing_communications"/><add id="Magento_Backend::marketing_seo" title="SEO &amp; Search" translate="title" module="Magento_Backend" sortOrder="40" parent="Magento_Backend::marketing" resource="Magento_Backend::marketing_seo"/><add id="Magento_Backend::marketing_user_content" title="User Content" translate="title" module="Magento_Backend" sortOrder="50" parent="Magento_Backend::marketing" resource="Magento_Backend::marketing_user_content"/><add id="Magento_Backend::content" title="Content" translate="title" module="Magento_Backend" sortOrder="50" resource="Magento_Backend::content"/><add id="Magento_Backend::content_elements" title="Elements" translate="title" module="Magento_Backend" sortOrder="10" parent="Magento_Backend::content" resource="Magento_Backend::content_elements"/><add id="Magento_Backend::stores" title="Stores" translate="title" module="Magento_Backend" sortOrder="70" resource="Magento_Backend::stores"/><add id="Magento_Backend::stores_settings" title="Settings" translate="title" module="Magento_Backend" sortOrder="10" parent="Magento_Backend::stores" resource="Magento_Backend::stores_settings"/><add id="Magento_Backend::stores_attributes" title="Attributes" translate="title" module="Magento_Backend" sortOrder="40" parent="Magento_Backend::stores" resource="Magento_Backend::stores_attributes"/><add id="Magento_Backend::other_settings" title="Other Settings" translate="title" module="Magento_Backend" sortOrder="50" parent="Magento_Backend::stores" resource="Magento_Backend::stores_other_settings"/><add id="Magento_Backend::system_other_settings" title="Other Settings" translate="title" module="Magento_Backend" sortOrder="80" parent="Magento_Backend::system" resource="Magento_Backend::system_other_settings"/><add id="Magento_User::system_acl" title="Permissions" translate="title" module="Magento_User" sortOrder="60" parent="Magento_Backend::system" resource="Magento_User::acl"/><add id="Magento_User::system_acl_users" title="All Users" translate="title" module="Magento_User" sortOrder="10" parent="Magento_User::system_acl" action="adminhtml/user" resource="Magento_User::acl_users"/><add id="Magento_User::system_acl_roles" title="User Roles" translate="title" module="Magento_User" sortOrder="30" parent="Magento_User::system_acl" action="adminhtml/user_role" resource="Magento_User::acl_roles"/><add id="Magento_User::system_acl_locks" title="Locked Users" translate="title" module="Magento_User" sortOrder="20" parent="Magento_User::system_acl" action="adminhtml/locks" resource="Magento_User::locks"/><add id="Magento_Customer::customer" title="Customers" translate="title" module="Magento_Customer" sortOrder="30" resource="Magento_Customer::customer"/><add id="Magento_Customer::customer_manage" title="All Customers" translate="title" module="Magento_Customer" sortOrder="10" parent="Magento_Customer::customer" action="customer/index/" resource="Magento_Customer::manage"/><add id="Magento_Customer::customer_online" title="Now Online" translate="title" module="Magento_Customer" sortOrder="30" parent="Magento_Customer::customer" action="customer/online/" resource="Magento_Customer::online"/><add id="Magento_Customer::customer_group" title="Customer Groups" translate="title" module="Magento_Customer" sortOrder="50" parent="Magento_Customer::customer" action="customer/group" resource="Magento_Customer::group"/><add id="Magento_Backup::system_tools_backup" title="Backups" translate="title" module="Magento_Backup" sortOrder="30" parent="Magento_Backend::system_tools" action="backup/index" resource="Magento_Backup::backup" dependsOnConfig="system/backup/functionality_enabled"/><add id="Magento_Indexer::system_index" title="Index Management" translate="title" module="Magento_Indexer" sortOrder="30" parent="Magento_Backend::system_tools" action="indexer/indexer/list" resource="Magento_Indexer::index"/><add id="Magento_Variable::system_variable" title="Custom Variables" translate="title" module="Magento_Variable" sortOrder="20" parent="Magento_Backend::system_other_settings" action="adminhtml/system_variable" resource="Magento_Variable::variable"/><add id="Magento_Cms::cms_page" title="Pages" translate="title" module="Magento_Cms" sortOrder="0" parent="Magento_Backend::content_elements" action="cms/page" resource="Magento_Cms::page"/><add id="Magento_Cms::cms_block" title="Blocks" translate="title" module="Magento_Cms" sortOrder="30" parent="Magento_Backend::content_elements" action="cms/block" resource="Magento_Cms::block"/><add id="Magento_Integration::system_extensions" title="Extensions" translate="title" module="Magento_Integration" sortOrder="45" parent="Magento_Backend::system" resource="Magento_Integration::extensions"/><add id="Magento_Integration::system_integrations" title="Integrations" translate="title" module="Magento_Integration" sortOrder="10" parent="Magento_Integration::system_extensions" action="adminhtml/integration" resource="Magento_Integration::integrations"/><add id="Magento_Search::search_terms" title="Search Terms" translate="title" module="Magento_Search" sortOrder="40" parent="Magento_Backend::marketing_seo" action="search/term/index" resource="Magento_Search::search"/><add id="Magento_Search::search_synonyms" title="Search Synonyms" translate="title" module="Magento_Search" sortOrder="50" parent="Magento_Backend::marketing_seo" action="search/synonyms/index" resource="Magento_Search::synonyms"/><add id="Magento_Catalog::catalog" title="Catalog" translate="title" module="Magento_Catalog" sortOrder="20" dependsOnModule="Magento_Catalog" resource="Magento_Catalog::catalog"/><add id="Magento_Catalog::catalog_products" title="Products" translate="title" module="Magento_Catalog" sortOrder="10" parent="Magento_Catalog::inventory" action="catalog/product/" resource="Magento_Catalog::products"/><add id="Magento_Catalog::catalog_categories" title="Categories" translate="title" module="Magento_Catalog" sortOrder="20" parent="Magento_Catalog::inventory" action="catalog/category/" resource="Magento_Catalog::categories"/><add id="Magento_Catalog::catalog_attributes_attributes" title="Product" translate="title" module="Magento_Catalog" sortOrder="30" parent="Magento_Backend::stores_attributes" action="catalog/product_attribute/" resource="Magento_Catalog::attributes_attributes"/><add id="Magento_Catalog::catalog_attributes_sets" title="Attribute Set" translate="title" module="Magento_Catalog" sortOrder="40" parent="Magento_Backend::stores_attributes" action="catalog/product_set/" resource="Magento_Catalog::sets"/><add id="Magento_Catalog::inventory" title="Inventory" translate="title" module="Magento_Catalog" sortOrder="10" parent="Magento_Catalog::catalog" dependsOnModule="Magento_Catalog" resource="Magento_Catalog::catalog"/><add id="Magento_CatalogRule::promo" title="Promotions" translate="title" module="Magento_CatalogRule" parent="Magento_Backend::marketing" sortOrder="10" resource="Magento_CatalogRule::promo"/><add id="Magento_CatalogRule::promo_catalog" title="Catalog Price Rule" translate="title" sortOrder="10" module="Magento_CatalogRule" parent="Magento_CatalogRule::promo" action="catalog_rule/promo_catalog/" dependsOnModule="Magento_Catalog" resource="Magento_CatalogRule::promo_catalog"/><add id="Magento_MediaGalleryUi::media" title="Media" translate="title" module="Magento_MediaGalleryUi" sortOrder="15" parent="Magento_Backend::content" resource="Magento_Cms::media_gallery" dependsOnConfig="system/media_gallery/enabled"/><add id="Magento_MediaGalleryUi::media_gallery" title="Media Gallery" translate="title" module="Magento_MediaGalleryUi" sortOrder="0" parent="Magento_MediaGalleryUi::media" action="media_gallery/media/index" resource="Magento_Cms::media_gallery"/><add id="Magento_Sales::sales" title="Sales" translate="title" module="Magento_Sales" sortOrder="15" dependsOnModule="Magento_Sales" resource="Magento_Sales::sales"/><add id="Magento_Sales::sales_operation" title="Operations" translate="title" module="Magento_Sales" sortOrder="10" parent="Magento_Sales::sales" resource="Magento_Sales::sales_operation"/><add id="Magento_Sales::sales_order" title="Orders" translate="title" module="Magento_Sales" sortOrder="10" parent="Magento_Sales::sales_operation" action="sales/order" resource="Magento_Sales::sales_order"/><add id="Magento_Sales::sales_invoice" title="Invoices" translate="title" module="Magento_Sales" sortOrder="20" parent="Magento_Sales::sales_operation" action="sales/invoice" resource="Magento_Sales::sales_invoice"/><add id="Magento_Sales::sales_shipment" title="Shipments" translate="title" module="Magento_Sales" sortOrder="30" parent="Magento_Sales::sales_operation" action="sales/shipment" resource="Magento_Sales::shipment"/><add id="Magento_Sales::sales_creditmemo" title="Credit Memos" translate="title" module="Magento_Sales" sortOrder="40" parent="Magento_Sales::sales_operation" action="sales/creditmemo" resource="Magento_Sales::sales_creditmemo"/><add id="Magento_Sales::sales_transactions" title="Transactions" translate="title" module="Magento_Sales" sortOrder="70" parent="Magento_Sales::sales_operation" action="sales/transactions" resource="Magento_Sales::transactions"/><add id="Magento_Sales::system_order_statuses" title="Order Status" translate="title" module="Magento_Sales" sortOrder="40" parent="Magento_Backend::stores_settings" action="sales/order_status" resource="Magento_Sales::order_statuses"/><add id="Magento_Widget::cms_widget_instance" title="Widgets" translate="title" module="Magento_Widget" sortOrder="50" parent="Magento_Backend::content_elements" action="adminhtml/widget_instance" resource="Magento_Widget::widget_instance"/><add id="Magento_Analytics::business_intelligence" title="Business Intelligence" translate="title" module="Magento_Analytics" sortOrder="90" parent="Magento_Reports::report" resource="Magento_Analytics::business_intelligence"/><add id="Magento_Analytics::advanced_reporting" title="Advanced Reporting" translate="title" module="Magento_Analytics" sortOrder="10" parent="Magento_Analytics::business_intelligence" action="analytics/reports/show" target="_blank" resource="Magento_Analytics::advanced_reporting"/><add id="Magento_Analytics::bi_essentials" title="BI Essentials" translate="title" module="Magento_Analytics" sortOrder="20" parent="Magento_Analytics::business_intelligence" action="analytics/biessentials/signup" target="_blank" resource="Magento_Analytics::bi_essentials"/><add id="Magento_Downloadable::report_products_downloads" title="Downloads" translate="title" module="Magento_Reports" sortOrder="50" parent="Magento_Reports::report_products" action="reports/report_product/downloads" resource="Magento_Reports::downloads"/><add id="Magento_Newsletter::newsletter_template" title="Newsletter Templates" translate="title" module="Magento_Newsletter" parent="Magento_Backend::marketing_communications" sortOrder="30" action="newsletter/template/" resource="Magento_Newsletter::template"/><add id="Magento_Newsletter::newsletter_queue" title="Newsletter Queue" translate="title" module="Magento_Newsletter" sortOrder="40" parent="Magento_Backend::marketing_communications" action="newsletter/queue/" resource="Magento_Newsletter::queue"/><add id="Magento_Newsletter::newsletter_subscriber" title="Newsletter Subscribers" translate="title" module="Magento_Newsletter" sortOrder="50" parent="Magento_Backend::marketing_communications" action="newsletter/subscriber/" resource="Magento_Newsletter::subscriber"/><add id="Magento_Newsletter::newsletter_problem" title="Newsletter Problem Reports" translate="title" module="Magento_Newsletter" sortOrder="50" parent="Magento_Reports::report_marketing" action="newsletter/problem/" resource="Magento_Newsletter::problem"/><add id="Magento_ImportExport::system_convert_import" title="Import" translate="title" module="Magento_ImportExport" sortOrder="10" parent="Magento_Backend::system_convert" action="adminhtml/import" resource="Magento_ImportExport::import"/><add id="Magento_ImportExport::system_convert_export" title="Export" translate="title" module="Magento_ImportExport" sortOrder="20" parent="Magento_Backend::system_convert" action="adminhtml/export" resource="Magento_ImportExport::export"/><add id="Magento_ImportExport::system_convert_history" title="Import History" translate="title" module="Magento_ImportExport" sortOrder="40" parent="Magento_Backend::system_convert" action="adminhtml/history" resource="Magento_ImportExport::history"/><add id="Magento_Email::template" title="Email Templates" translate="title" module="Magento_Email" sortOrder="10" parent="Magento_Backend::marketing_communications" action="adminhtml/email_template" resource="Magento_Email::template"/><add id="Magento_EncryptionKey::system_crypt_key" title="Manage Encryption Key" translate="title" module="Magento_EncryptionKey" sortOrder="30" parent="Magento_Backend::system_other_settings" action="adminhtml/crypt_key" dependsOnModule="Magento_EncryptionKey" resource="Magento_EncryptionKey::crypt_key"/><add id="Magento_InventoryAdminUi::inventory" title="Inventory" translate="title" module="Magento_Backend" sortOrder="15" parent="Magento_Backend::stores" resource="Magento_InventoryApi::inventory"/><add id="Magento_InventoryAdminUi::source" title="Sources" translate="title" module="Magento_InventoryAdminUi" sortOrder="10" parent="Magento_InventoryAdminUi::inventory" action="inventory/source/index" resource="Magento_InventoryApi::source"/><add id="Magento_InventoryAdminUi::stock" title="Stocks" translate="title" module="Magento_InventoryAdminUi" sortOrder="20" parent="Magento_InventoryAdminUi::inventory" action="inventory/stock/index" resource="Magento_InventoryApi::stock"/><add id="Magento_Reports::report" title="Reports" translate="title" module="Magento_Reports" sortOrder="60" resource="Magento_Reports::report"/><add id="Magento_Reports::report_marketing" title="Marketing" translate="title" module="Magento_Backend" sortOrder="10" parent="Magento_Reports::report" resource="Magento_Reports::report_marketing"/><add id="Magento_Reports::report_salesroot" title="Sales" translate="title" module="Magento_Reports" sortOrder="40" parent="Magento_Reports::report" resource="Magento_Reports::salesroot"/><add id="Magento_Reports::report_salesroot_sales" title="Orders" translate="title" module="Magento_Reports" sortOrder="10" parent="Magento_Reports::report_salesroot" action="reports/report_sales/sales" resource="Magento_Reports::salesroot_sales"/><add id="Magento_Reports::report_salesroot_tax" title="Tax" translate="title" module="Magento_Reports" sortOrder="20" parent="Magento_Reports::report_salesroot" action="reports/report_sales/tax" resource="Magento_Reports::tax"/><add id="Magento_Reports::report_salesroot_invoiced" title="Invoiced" translate="title" module="Magento_Reports" sortOrder="30" parent="Magento_Reports::report_salesroot" action="reports/report_sales/invoiced" resource="Magento_Reports::invoiced"/><add id="Magento_Reports::report_salesroot_shipping" title="Shipping" translate="title" module="Magento_Reports" sortOrder="40" parent="Magento_Reports::report_salesroot" action="reports/report_sales/shipping" resource="Magento_Reports::shipping"/><add id="Magento_Reports::report_salesroot_refunded" title="Refunds" translate="title" module="Magento_Reports" sortOrder="50" parent="Magento_Reports::report_salesroot" action="reports/report_sales/refunded" resource="Magento_Reports::refunded"/><add id="Magento_Reports::report_salesroot_coupons" title="Coupons" translate="title" module="Magento_Reports" sortOrder="60" parent="Magento_Reports::report_salesroot" action="reports/report_sales/coupons" resource="Magento_Reports::coupons"/><add id="Magento_Reports::report_shopcart_product" title="Products in Cart" translate="title" module="Magento_Reports" sortOrder="10" parent="Magento_Reports::report_marketing" action="reports/report_shopcart/product" resource="Magento_Reports::product"/><add id="Magento_Reports::report_shopcart_abandoned" title="Abandoned Carts" translate="title" module="Magento_Reports" sortOrder="20" parent="Magento_Reports::report_marketing" action="reports/report_shopcart/abandoned" resource="Magento_Reports::abandoned"/><add id="Magento_Reports::report_products" title="Products" translate="title" module="Magento_Reports" sortOrder="60" parent="Magento_Reports::report" resource="Magento_Reports::report_products"/><add id="Magento_Reports::report_products_bestsellers" title="Bestsellers" translate="title" module="Magento_Reports" sortOrder="20" parent="Magento_Reports::report_products" action="reports/report_sales/bestsellers" resource="Magento_Reports::bestsellers"/><add id="Magento_Reports::report_products_sold" title="Ordered" translate="title" module="Magento_Reports" sortOrder="40" parent="Magento_Reports::report_products" action="reports/report_product/sold" resource="Magento_Reports::sold"/><add id="Magento_Reports::report_products_viewed" title="Views" translate="title" module="Magento_Reports" sortOrder="10" parent="Magento_Reports::report_products" action="reports/report_product/viewed" resource="Magento_Reports::viewed"/><add id="Magento_Reports::report_products_lowstock" title="Low Stock" translate="title" module="Magento_Reports" sortOrder="30" parent="Magento_Reports::report_products" action="reports/report_product/lowstock" resource="Magento_Reports::lowstock"/><add id="Magento_Reports::report_customers" title="Customers" translate="title" module="Magento_Reports" sortOrder="50" parent="Magento_Reports::report" resource="Magento_Reports::customers"/><add id="Magento_Reports::report_customers_accounts" title="New" translate="title" sortOrder="30" module="Magento_Reports" parent="Magento_Reports::report_customers" action="reports/report_customer/accounts" resource="Magento_Reports::accounts"/><add id="Magento_Reports::report_customers_totals" title="Order Total" translate="title" module="Magento_Reports" sortOrder="10" parent="Magento_Reports::report_customers" action="reports/report_customer/totals" resource="Magento_Reports::totals"/><add id="Magento_Reports::report_customers_orders" title="Order Count" translate="title" module="Magento_Reports" sortOrder="20" parent="Magento_Reports::report_customers" action="reports/report_customer/orders" resource="Magento_Reports::customers_orders"/><add id="Magento_Reports::report_statistics" title="Statistics" translate="title" module="Magento_Reports" sortOrder="80" parent="Magento_Reports::report" resource="Magento_Reports::statistics"/><add id="Magento_Reports::report_statistics_refresh" title="Refresh Statistics" translate="title" module="Magento_Reports" sortOrder="10" parent="Magento_Reports::report_statistics" action="reports/report_statistics" resource="Magento_Reports::statistics_refresh"/><add id="Magento_Search::report_search_term" title="Search Terms" translate="title" module="Magento_Search" sortOrder="10" parent="Magento_Reports::report_marketing" action="search/term/report" resource="Magento_Reports::report_search"/><add id="Magento_LoginAsCustomerLog::login_log" title="Login as Customer Log" module="Magento_LoginAsCustomerLog" parent="Magento_Customer::customer" sortOrder="40" resource="Magento_LoginAsCustomerLog::login_log" action="loginascustomer_log/log/index" dependsOnConfig="login_as_customer/general/enabled"/><add id="Magento_Marketplace::partners" title="Find Partners &amp; Extensions" translate="title" module="Magento_Marketplace" sortOrder="80" action="marketplace/index" resource="Magento_Marketplace::partners"/><add id="Magento_SalesRule::promo_quote" title="Cart Price Rules" translate="title" module="Magento_SalesRule" parent="Magento_CatalogRule::promo" sortOrder="30" action="sales_rule/promo_quote/" dependsOnModule="Magento_Sales" resource="Magento_SalesRule::quote"/><add id="Magento_Sitemap::catalog_sitemap" title="Site Map" translate="title" module="Magento_Sitemap" sortOrder="60" parent="Magento_Backend::marketing_seo" action="adminhtml/sitemap/" resource="Magento_Sitemap::sitemap"/><add id="Magento_PageBuilder::templates" title="Templates" translate="title" module="Magento_PageBuilder" sortOrder="100" parent="Magento_Backend::content_elements" dependsOnConfig="cms/pagebuilder/enabled" action="pagebuilder/template" resource="Magento_PageBuilder::templates"/><add id="Magento_PaymentServicesDashboard::paymentservicesdashboard" title="Payment Services" translate="title" module="Magento_PaymentServicesDashboard" sortOrder="10" parent="Magento_Sales::sales_operation" action="paymentservicesdashboard/dashboard/index" resource="Magento_PaymentServicesDashboard::paymentservicesdashboard"/><add id="Magento_Paypal::report_salesroot_paypal_settlement_reports" title="PayPal Settlement" translate="title" module="Magento_Paypal" sortOrder="70" parent="Magento_Reports::report_salesroot" action="paypal/paypal_reports" resource="Magento_Paypal::paypal_settlement_reports"/><add id="Magento_Paypal::paypal_billing_agreement" title="Billing Agreements" translate="title" module="Magento_Paypal" sortOrder="60" parent="Magento_Sales::sales_operation" action="paypal/billing_agreement" resource="Magento_Paypal::billing_agreement"/><add id="Magento_CheckoutAgreements::sales_checkoutagreement" title="Terms and Conditions" translate="title" module="Magento_CheckoutAgreements" sortOrder="30" parent="Magento_Backend::stores_settings" action="checkout/agreement/" resource="Magento_CheckoutAgreements::checkoutagreement"/><add id="Magento_Review::catalog_reviews_ratings_ratings" title="Rating" translate="title" module="Magento_Review" sortOrder="60" parent="Magento_Backend::stores_attributes" action="review/rating/" resource="Magento_Review::ratings"/><add id="Magento_Review::catalog_reviews_ratings_pending" title="Pending Reviews" translate="title" module="Magento_Review" parent="Magento_Backend::marketing_user_content" sortOrder="20" action="review/product/pending" resource="Magento_Review::pending"/><add id="Magento_Review::catalog_reviews_ratings_reviews_all" title="All Reviews" translate="title" module="Magento_Review" parent="Magento_Backend::marketing_user_content" sortOrder="10" action="review/product/index" resource="Magento_Review::reviews_all"/><add id="Magento_Review::report_review" title="Reviews" translate="title" module="Magento_Reports" sortOrder="20" parent="Magento_Reports::report" resource="Magento_Reports::review"/><add id="Magento_Review::report_review_customer" title="By Customers" translate="title" sortOrder="10" module="Magento_Review" parent="Magento_Review::report_review" action="reports/report_review/customer" resource="Magento_Reports::review_customer"/><add id="Magento_Review::report_review_product" title="By Products" translate="title" sortOrder="20" module="Magento_Review" parent="Magento_Review::report_review" action="reports/report_review/product" resource="Magento_Reports::review_product"/><add id="Magento_ServicesId::configuration" title="Services" translate="title" module="Magento_ServicesId" sortOrder="20" parent="Magento_Backend::system" resource="Magento_Backend::system"/><add id="Magento_ServicesId::services_id" title="Commerce Services Connector" translate="title" module="Magento_ServicesId" sortOrder="10" parent="Magento_ServicesId::configuration" action="services_id/" resource="Magento_ServicesId::configuration"/><add id="Magento_UrlRewrite::urlrewrite" title="URL Rewrites" translate="title" module="Magento_UrlRewrite" sortOrder="20" parent="Magento_Backend::marketing_seo" action="adminhtml/url_rewrite/index" resource="Magento_UrlRewrite::urlrewrite"/><add id="Magento_Tax::sales_tax" title="Taxes" translate="title" module="Magento_Tax" sortOrder="20" parent="Magento_Backend::stores" resource="Magento_Tax::manage_tax"/><add id="Magento_Tax::sales_tax_rules" title="Tax Rules" translate="title" module="Magento_Tax" sortOrder="10" parent="Magento_Tax::sales_tax" action="tax/rule" resource="Magento_Tax::manage_tax"/><add id="Magento_Tax::sales_tax_rates" title="Tax Zones and Rates" translate="title" module="Magento_Tax" sortOrder="20" parent="Magento_Tax::sales_tax" action="tax/rate" resource="Magento_Tax::manage_tax"/><add id="Magento_TaxImportExport::system_convert_tax" title="Import/Export Tax Rates" sortOrder="30" module="Magento_TaxImportExport" parent="Magento_Backend::system_convert" action="tax/rate/importExport" resource="Magento_TaxImportExport::import_export"/><add id="Magento_AsynchronousOperations::system_magento_logging" title="Action Logs" translate="title" module="Magento_AsynchronousOperations" sortOrder="70" parent="Magento_Backend::system" dependsOnModule="Magento_AsynchronousOperations" resource="Magento_Logging::magento_logging"/><add id="Magento_AsynchronousOperations::system_magento_logging_bulk_operations" title="Bulk Actions" translate="title" module="Magento_AsynchronousOperations" sortOrder="25" parent="Magento_AsynchronousOperations::system_magento_logging" action="bulk/index/" resource="Magento_Logging::system_magento_logging_bulk_operations"/><remove id="Magento_Backend::system_currency"/><add id="Magento_CurrencySymbol::system_currency" title="Currency" translate="title" module="Magento_CurrencySymbol" sortOrder="30" parent="Magento_Backend::stores" resource="Magento_CurrencySymbol::system_currency"/><add id="Magento_CurrencySymbol::system_currency_rates" title="Currency Rates" translate="title" module="Magento_CurrencySymbol" sortOrder="10" parent="Magento_CurrencySymbol::system_currency" action="adminhtml/system_currency" resource="Magento_CurrencySymbol::currency_rates"/><add id="Magento_CurrencySymbol::system_currency_symbols" title="Currency Symbols" translate="title" module="Magento_CurrencySymbol" sortOrder="20" parent="Magento_CurrencySymbol::system_currency" action="adminhtml/system_currencysymbol" resource="Magento_CurrencySymbol::symbols"/><add id="Maxime_Job::Job_head" title="Job" module="Maxime_Job" parent="Magento_Backend::contetnt" sortOrder="100" resource="Maxime_Job::Job_head"/><add id="Maxime_Job::department" title="department" module="Maxime_Job" parent="Maxime_Job::Job_head" resource="Maxime_Job::Job" action="job/department"/><add id="Maxime_Job::Job" title="Job" parent="Maxime_Job::Job_head" resource="Maxime_Job::Job" action="Job/Job"/><add id="PayPal_Braintree::settlement_report" title="Braintree Settlement" module="PayPal_Braintree" sortOrder="80" parent="Magento_Reports::report_salesroot" action="braintree/report" resource="PayPal_Braintree::settlement_report"/><add id="PayPal_Braintree::virtual_terminal" title="Braintree Virtual Terminal" module="PayPal_Braintree" sortOrder="100" parent="Magento_Sales::sales_operation" action="braintree/virtual" resource="Magento_Sales::create"/></menu>
+11:</config>
+12:
+ [] []
+[2025-07-01T08:00:45.086959+00:00] main.ERROR: There are no commands defined in the "clean" namespace.
+
+Did you mean this?
+    cache:clean
+#0 /var/www/html/vendor/symfony/console/Application.php(720): Symfony\Component\Console\Application->findNamespace('clean')
+#1 /var/www/html/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->find('clean:cache')
+#2 /var/www/html/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#5 {main} [] []
+[2025-07-01T08:01:09.475191+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:01:11.525553+00:00] main.ERROR: The "/var/www/html/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-07-01T08:01:11.526167+00:00] main.CRITICAL: The "/var/www/html/var/tmp/alternative-source-css.lock" file can't be deleted.  [] []
+[2025-07-01T08:01:33.518167+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:01:51.771044+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:02:01.183892+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:04:24.851779+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:04:30.184588+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/view/adminhtml/ui_component/job_department_listing.xml" is invalid:
+Element 'config': No matching global declaration available for the validation root.
+Line: 2
+The xml was: 
+0:<?xml version="1.0"?>
+1:<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/ui_configuration.xsd">
+2:<argument name="data" xsi:type="array">
+3:<item name="js_config" xsi:type="array">
+4:   <item name="provider" xsi:type="string">job_department_listing.job_department_listing_data_source</item>
+5:   <item name="deps" xsi:type="string">job_department_listing.job_department_listing_data_source</item>
+6:</item>
+7:    </argument>
+8:
+9:    <!-- data resource  -->
+
+Verify the XML and try again. [] []
+[2025-07-01T08:04:40.419057+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:04:51.561465+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:04:55.703043+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/view/adminhtml/ui_component/job_department_listing.xml" is invalid:
+Element 'config': No matching global declaration available for the validation root.
+Line: 2
+The xml was: 
+0:<?xml version="1.0"?>
+1:<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/ui_configuration.xsd">
+2:<argument name="data" xsi:type="array">
+3:<item name="js_config" xsi:type="array">
+4:   <item name="provider" xsi:type="string">job_department_listing.job_department_listing_data_source</item>
+5:   <item name="deps" xsi:type="string">job_department_listing.job_department_listing_data_source</item>
+6:</item>
+7:    </argument>
+8:
+9:    <!-- data resource  -->
+
+Verify the XML and try again. [] []
+[2025-07-01T08:10:25.354167+00:00] main.ERROR: The XML in file "/var/www/html/app/code/Maxime/Job/view/adminhtml/ui_component/job_department_listing.xml" is invalid:
+Element 'config': No matching global declaration available for the validation root.
+Line: 3
+The xml was: 
+0:<?xml version="1.0"?>
+1:<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/ui_configuration.xsd">
+2:
+3:    <listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+4:
+5:        <argument name="data" xsi:type="array">
+6:            <item name="js_config" xsi:type="array">
+7:                <item name="provider" xsi:type="string">job_department_listing.job_department_listing_data_source</item>
+8:                <item name="deps" xsi:type="string">job_department_listing.job_department_listing_data_source</item>
+9:            </item>
+
+Verify the XML and try again. [] []
+[2025-07-01T08:24:13.851334+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:24:28.866609+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:24:32.966628+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:27:27.027401+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:27:34.298188+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:27:37.702788+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:29:30.538862+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:29:48.655755+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:36:41.208001+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:36:52.574468+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:36:58.336253+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:52:20.248411+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.250310+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.250684+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.251021+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.251328+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.251635+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.251874+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.252108+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.252350+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.252537+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.252723+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.252915+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.253106+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.253278+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.253443+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.253611+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.254002+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.254205+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T08:52:20.254481+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T08:52:20.254658+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T08:52:20.254851+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T08:52:20.255017+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T08:52:20.255201+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-07-01T08:52:20.255414+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T08:52:20.255616+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T08:52:20.255841+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-07-01T08:52:38.924570+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:52:46.918342+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:52:50.344948+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T08:52:55.200527+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:00:43.909216+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:20:48.743905+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.745501+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.745848+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.746128+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.746393+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.746671+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.746957+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.747216+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.747477+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.747750+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.748018+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.748280+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.748863+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.749134+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.749391+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.749652+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.750175+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.750457+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:20:48.750875+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T09:20:48.751157+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T09:20:48.751445+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T09:20:48.751751+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T09:20:48.752025+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-07-01T09:20:48.752342+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T09:20:48.752605+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T09:20:48.752900+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-07-01T09:21:10.597839+00:00] main.INFO: Broken reference: the 'tracking' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.598231+00:00] main.INFO: Broken reference: the 'notification_area' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.598392+00:00] main.INFO: Broken reference: the 'unread_system_messages' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.598533+00:00] main.INFO: Broken reference: the 'notification_window' element cannot be added as child to 'notifications', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.598667+00:00] main.INFO: Broken reference: the 'notification.messages' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.598822+00:00] main.INFO: Broken reference: the 'global_notices' element cannot be added as child to 'global.notices', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.598954+00:00] main.INFO: Broken reference: the 'logo' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.599084+00:00] main.INFO: Broken reference: the 'global.search' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.599232+00:00] main.INFO: Broken reference: the 'user' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.599405+00:00] main.INFO: Broken reference: the 'menu' element cannot be added as child to 'page.menu', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.599532+00:00] main.INFO: Broken reference: the 'breadcrumbs' element cannot be added as child to 'page.breadcrumbs', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.599656+00:00] main.INFO: Broken reference: the 'formkey' element cannot be added as child to 'page.formkey', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.599800+00:00] main.INFO: Broken reference: the 'page.title' element cannot be added as child to 'main.top', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.599927+00:00] main.INFO: Broken reference: the 'messages' element cannot be added as child to 'page.messages', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.600054+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' element cannot be added as child to 'page.main.actions', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.600182+00:00] main.INFO: Broken reference: the 'legal' element cannot be added as child to 'footer', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.600426+00:00] main.INFO: Broken reference: the 'header.inner.left' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.600629+00:00] main.INFO: Broken reference: the 'header.inner.right' element cannot be added as child to 'header', because the latter doesn't exist [] []
+[2025-07-01T09:21:10.600844+00:00] main.INFO: Broken reference: the 'user' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T09:21:10.600982+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T09:21:10.601103+00:00] main.INFO: Broken reference: the 'logo' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T09:21:10.601224+00:00] main.INFO: Broken reference: the 'global.search' tries to reorder itself towards 'logo', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T09:21:10.601345+00:00] main.INFO: Broken reference: the 'page.actions.toolbar' tries to reorder itself towards '', but their parents are different: 'page.main.actions' and '' respectively. [] []
+[2025-07-01T09:21:10.601493+00:00] main.INFO: Broken reference: the 'header.inner.left' tries to reorder itself towards '', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T09:21:10.601658+00:00] main.INFO: Broken reference: the 'header.inner.right' tries to reorder itself towards 'header.inner.left', but their parents are different: 'header' and '' respectively. [] []
+[2025-07-01T09:21:10.601823+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and '' respectively. [] []
+[2025-07-01T09:21:34.512485+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:21:40.646675+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:21:40.691548+00:00] main.ERROR: Class "Maxime\Job\Ui\Component\Listing\Column\DepartmentActions" does not exist [] []
+[2025-07-01T09:21:52.268847+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:21:56.070622+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:22:47.297529+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:22:51.386452+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:22:55.051796+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:22:55.085196+00:00] main.ERROR: Class "Maxime\Job\Ui\Component\Listing\Column\DepartmentActions" does not exist [] []
+[2025-07-01T09:23:16.470735+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:23:16.500990+00:00] main.ERROR: Class "Maxime\Job\Ui\Component\Listing\Column\DepartmentActions" does not exist [] []
+[2025-07-01T09:35:14.443897+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:35:14.517626+00:00] main.ERROR: Class "Maxime\Job\Ui\Component\Listing\Column\DepartmentActions" does not exist [] []
+[2025-07-01T09:38:20.803645+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:38:20.877117+00:00] main.ERROR: Class "Maxime\Job\Ui\Component\Listing\Column\DepartmentActions" does not exist [] []
+[2025-07-01T09:41:10.505243+00:00] main.ERROR: Error during compilation
+#0 /var/www/html/setup/src/Magento/Setup/Module/Di/Code/Reader/Decorator/Interceptions.php(85): Magento\Setup\Module\Di\Compiler\Log\Log->report()
+#1 /var/www/html/setup/src/Magento/Setup/Module/Di/App/Task/Operation/InterceptionCache.php(61): Magento\Setup\Module\Di\Code\Reader\Decorator\Interceptions->getList('/var/www/html/a...')
+#2 /var/www/html/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\InterceptionCache->doOperation()
+#3 /var/www/html/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#4 /var/www/html/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2025-07-01T09:42:59.169156+00:00] main.ERROR: Error during compilation
+#0 /var/www/html/setup/src/Magento/Setup/Module/Di/Code/Reader/Decorator/Interceptions.php(85): Magento\Setup\Module\Di\Compiler\Log\Log->report()
+#1 /var/www/html/setup/src/Magento/Setup/Module/Di/App/Task/Operation/InterceptionCache.php(61): Magento\Setup\Module\Di\Code\Reader\Decorator\Interceptions->getList('/var/www/html/a...')
+#2 /var/www/html/setup/src/Magento/Setup/Module/Di/App/Task/Manager.php(56): Magento\Setup\Module\Di\App\Task\Operation\InterceptionCache->doOperation()
+#3 /var/www/html/setup/src/Magento/Setup/Console/Command/DiCompileCommand.php(209): Magento\Setup\Module\Di\App\Task\Manager->process(Object(Closure), Object(Closure))
+#4 /var/www/html/vendor/symfony/console/Command/Command.php(326): Magento\Setup\Console\Command\DiCompileCommand->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /var/www/html/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /var/www/html/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\DiCompileCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /var/www/html/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /var/www/html/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /var/www/html/bin/magento(23): Symfony\Component\Console\Application->run()
+#10 {main} [] []
+[2025-07-01T09:44:45.805389+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:46:16.469934+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:50:05.949127+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:58:02.301197+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:58:44.992434+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T09:59:07.957081+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-07-01T09:59:07.957523+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-07-01T10:00:11.140014+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T10:00:12.959616+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-07-01T10:00:12.960088+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-07-01T10:00:17.790192+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T10:00:18.430505+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-07-01T10:00:18.431046+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-07-01T10:01:48.138520+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T10:01:48.904974+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-07-01T10:01:48.905361+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-07-01T10:01:57.777882+00:00] main.ERROR: Braintree\Configuration::merchantId needs to be set (or accessToken needs to be passed to Braintree\Gateway). [] []
+[2025-07-01T10:02:32.958044+00:00] main.INFO: Broken reference: the 'notification.messages' tries to reorder itself towards 'user', but their parents are different: 'header.inner.right' and 'header' respectively. [] []
+[2025-07-01T10:02:33.682072+00:00] main.ERROR: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
+[2025-07-01T10:02:33.682604+00:00] main.CRITICAL: Unable to resolve the source file for 'adminhtml/Magento/backend/en_US/underscore-umd.js.map' [] []
