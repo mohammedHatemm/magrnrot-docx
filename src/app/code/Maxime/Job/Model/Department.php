@@ -15,4 +15,28 @@ class Department extends AbstractModel
   {
     $this->_init("Maxime\Job\Model\ResourceModel\Department");
   }
+  public function getDepartmentId()
+  {
+    return $this->getData('department_id');
+  }
+
+  public function getDepartmentName()
+  {
+    return $this->getData('department_name');
+  }
+
+  public function getDepartmentDescription()
+  {
+    return $this->getData('department_description');
+  }
+
+  public function setDepartmentName($name)
+  {
+    return $this->setData('department_name', $name);
+  }
+
+  public function setDepartmentDescription($description)
+  {
+    return $this->setData('department_description', $description);
+  }
 }

@@ -11,7 +11,7 @@
         module="Maxime_Job"
         sortOrder="10"
         parent="Maxime_Job::job_head"
-        action="job/department" resource="Maxime_Job::job" />
+        action="job/department" resource="Maxime_Job::department" />
 
         <add id="Maxime_Job::job"
          title="Jobs"

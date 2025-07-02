@@ -15,4 +15,10 @@ class DepartmentCollection extends AbstractCollection
       "Maxime\Job\Model\ResourceModel\Department"
     );
   }
+
+  public function _initSelect()
+  {
+    parent::_initSelect();
+    $this->addFilterToMap('fulltext', ['main_table.department_name', 'main_table.department_description']);
+  }
 }
