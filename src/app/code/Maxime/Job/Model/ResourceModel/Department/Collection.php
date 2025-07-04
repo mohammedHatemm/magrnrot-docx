@@ -4,7 +4,7 @@ namespace Maxime\Job\Model\ResourceModel\Department;
 
 use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
-class DepartmentCollection extends AbstractCollection
+class Collection extends AbstractCollection
 {
   protected $_idFieldName = "department_id";
 

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="editor"/>
+    <body>
+        <referenceContainer name="content">
+            <block class="Maxime\Job\Block\Adminhtml\Job\Edit" name="job_edit">
+                <block class="Maxime\Job\Block\Adminhtml\Job\Edit\Form" name="job_edit_form">
+                    <container name="form.additional.info" as="form_additional_info"/>
+                </block>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

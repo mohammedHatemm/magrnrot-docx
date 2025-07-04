@@ -4577,6 +4577,16 @@
         'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
       ),
     ),
+    'Maxime\\Job\\Ui\\DataProvider\\Job\\JobGridDataProvider' => NULL,
+    'JobGridFilterPool' => NULL,
+    'Maxime\\Job\\Model\\ResourceModel\\Grid\\Job\\Collection' => 
+    array (
+      'currentPageDetection' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
+      ),
+    ),
     'Magento\\Framework\\ForeignKey\\Migration\\TableNameArrayIterator' => NULL,
     'OmsTableNameArrayIterator' => NULL,
     'BraintreeFacade' => 
@@ -9556,6 +9566,13 @@
       ),
     ),
     'Maxime\\Job\\Model\\ResourceModel\\Grid\\Department\\Collection_getCurPage___self' => 
+    array (
+      4 => 
+      array (
+        0 => 'currentPageDetection',
+      ),
+    ),
+    'Maxime\\Job\\Model\\ResourceModel\\Grid\\Job\\Collection_getCurPage___self' => 
     array (
       4 => 
       array (

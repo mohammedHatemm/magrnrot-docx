@@ -17,6 +17,7 @@
     <column xsi:type="varchar" name="job_location" nullable="true" length="255" comment="Job Location"/>
     <column xsi:type="varchar" name="job_type" nullable="true" length="255" comment="Job Type"/>
     <column xsi:type="datetime" name="job_started_at" nullable="true" comment="Job Started At"/>
+    <column xsi:type="datetime" name="job_ended_at" nullable="true" comment="Job Ended At"/>
     <column xsi:type="smallint" name="job_status" nullable="true" default="1" comment="Job Status"/>
     <column xsi:type="int" name="department_id" unsigned="true" nullable="true" comment="Department ID"/>
 
