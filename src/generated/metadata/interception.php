@@ -19766,6 +19766,7 @@
   'Maxime\\Job\\Model\\Source\\Job\\Status' => false,
   'Maxime\\Job\\Ui\\Component\\Listing\\Column\\DepartmentActions' => false,
   'Maxime\\Job\\Ui\\Component\\Listing\\Column\\JobActions' => false,
+  'Maxime\\Job\\Ui\\Component\\Listing\\Column\\JobStatus' => false,
   'Maxime\\Job\\Ui\\Component\\Options\\JobDepartment' => false,
   'Maxime\\Job\\Ui\\Component\\Options\\JobStatus' => false,
   'Maxime\\Job\\Ui\\Component\\Options\\JobType' => false,

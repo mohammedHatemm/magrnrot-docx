@@ -19,22 +19,19 @@
     </argument>
 
     <!-- Data Source -->
-    <dataSource name="job_job_listing_data_source">
-        <argument name="dataProvider" xsi:type="configurableObject">
-            <argument name="class" xsi:type="string">Maxime\Job\Ui\DataProvider\Job\JobGridDataProvider</argument>
-            <argument name="name" xsi:type="string">job_job_listing_data_source</argument>
-            <argument name="primaryFieldName" xsi:type="string">job_id</argument>
-            <argument name="requestFieldName" xsi:type="string">id</argument>
-            <argument name="data" xsi:type="array">
-                <item name="config" xsi:type="array">
-                    <item name="component" xsi:type="string">Magento_Ui/js/grid/provider</item>
-                    <item name="update_url" xsi:type="url" path="mui/index/render"/>
-                    <item name="storageConfig" xsi:type="array">
-                        <item name="indexField" xsi:type="string">job_id</item>
-                    </item>
-                </item>
-            </argument>
-        </argument>
+    <dataSource name="job_job_listing_data_source" component="Magento_Ui/js/grid/provider">
+        <settings>
+            <updateUrl path="mui/index/render"/>
+            <storageConfig>
+                <param name="indexField" xsi:type="string">job_id</param>
+            </storageConfig>
+        </settings>
+        <dataProvider class="Maxime\Job\Ui\DataProvider\Job\JobGridDataProvider" name="job_job_listing_data_source">
+            <settings>
+                <requestFieldName>id</requestFieldName>
+                <primaryFieldName>job_id</primaryFieldName>
+            </settings>
+        </dataProvider>
     </dataSource>
 
     <!-- Toolbar -->
@@ -118,11 +115,10 @@
             </argument>
         </column>
 
-        <column name="job_status">
+        <column name="job_status" class="Maxime\Job\Ui\Component\Listing\Column\JobStatus">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="component" xsi:type="string">Magento_Ui/js/grid/columns/select</item>
-                    <item name="label" xsi:type="string" translate="true">Status</item>
+                    <item name="label" xsi:type="string" translate="true">الحالة</item>
                     <item name="filter" xsi:type="string">select</item>
                     <item name="dataType" xsi:type="string">select</item>
                     <item name="options" xsi:type="object">Maxime\Job\Ui\Component\Options\JobStatus</item>

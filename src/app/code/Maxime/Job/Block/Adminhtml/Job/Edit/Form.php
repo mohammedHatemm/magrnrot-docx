@@ -126,10 +126,10 @@ class Form extends Generic
     );
 
     $fieldset->addField(
-      'job_department_id',
+      'department_id',
       'select',
       [
-        'name' => 'job_department_id',
+        'name' => 'department_id',
         'label' => __('Department'),
         'title' => __('Department'),
         'values' => $this->getDepartmentOptions(),

@@ -2,11 +2,11 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
 
-    <!-- =========================================== -->
+    <!-- ========================================== -->
     <!-- Department Grid Data Provider and Filters -->
-    <!-- =========================================== -->
+    <!-- ========================================== -->
 
-    <!-- Create Department Grid Data Provider -->
+    <!-- Department Grid Data Provider -->
     <virtualType name="Maxime\Job\Ui\DataProvider\Department\DepartmentGridDataProvider"
                  type="Magento\Framework\View\Element\UiComponent\DataProvider\DataProvider">
         <arguments>
@@ -48,16 +48,15 @@
     <!-- Job Grid Data Provider -->
     <!-- ========================= -->
 
-    <!-- Create Job Grid Data Provider -->
-   <!-- Create Job Grid Data Provider -->
-<!-- Create Job Grid Data Provider -->
-<virtualType name="Maxime\Job\Ui\DataProvider\Job\JobGridDataProvider"
-             type="Magento\Framework\View\Element\UiComponent\DataProvider">
-    <arguments>
-        <argument name="collection" xsi:type="object" shared="false">Maxime\Job\Model\ResourceModel\Grid\Job\Collection</argument>
-        <argument name="filterPool" xsi:type="object" shared="false">JobGridFilterPool</argument>
-    </arguments>
-</virtualType>
+    <!-- Create Job Grid Data Provider (fixed name to avoid conflict with real class) -->
+
+
+    <type name="Maxime\Job\Ui\DataProvider\Job\JobGridDataProvider">
+        <arguments>
+            <argument name="collectionFactory" xsi:type="object">Maxime\Job\Model\ResourceModel\Job\CollectionFactory</argument>
+            <argument name="dataPersistor" xsi:type="object">Magento\Framework\App\Request\DataPersistorInterface</argument>
+        </arguments>
+    </type>
 
 
     <!-- Filter Pool for Job Grid -->

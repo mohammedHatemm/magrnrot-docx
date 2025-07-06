@@ -8,10 +8,10 @@ class Interceptor extends \Maxime\Job\Controller\Adminhtml\Job\Save implements \
 {
     use \Magento\Framework\Interception\Interceptor;
 
-    public function __construct(\Magento\Backend\App\Action\Context $context, \Maxime\Job\Model\JobFactory $jobFactory)
+    public function __construct(\Magento\Backend\App\Action\Context $context, \Maxime\Job\Model\JobFactory $jobFactory, \Magento\Framework\Stdlib\DateTime\Filter\Date $dateFilter)
     {
         $this->___init();
-        parent::__construct($context, $jobFactory);
+        parent::__construct($context, $jobFactory, $dateFilter);
     }
 
     /**

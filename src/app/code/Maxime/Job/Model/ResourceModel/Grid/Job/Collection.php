@@ -13,7 +13,7 @@ class Collection extends SearchResult
     $this->getSelect()->joinLeft(
       ['department' => $this->getTable('maxime_department')],
       'main_table.department_id = department.department_id',
-      ['department_name']
+      ['department_name' => 'department.department_name']
     );
 
     return $this;

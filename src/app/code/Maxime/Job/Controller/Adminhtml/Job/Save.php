@@ -6,6 +6,7 @@ use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
 use Maxime\Job\Model\JobFactory;
 use Magento\Framework\Exception\LocalizedException;
+use Magento\Framework\Stdlib\DateTime\Filter\Date as DateFilter; // استيراد فلتر التاريخ الخاص بماجنتو
 
 class Save extends Action
 {
@@ -15,16 +16,24 @@ class Save extends Action
   protected $jobFactory;
 
   /**
+   * @var DateFilter
+   */
+  protected $dateFilter;
+
+  /**
    * Constructor
    *
    * @param Context $context
    * @param JobFactory $jobFactory
+   * @param DateFilter $dateFilter
    */
   public function __construct(
     Context $context,
-    JobFactory $jobFactory
+    JobFactory $jobFactory,
+    DateFilter $dateFilter // حقن فلتر التاريخ
   ) {
     $this->jobFactory = $jobFactory;
+    $this->dateFilter = $dateFilter;
     parent::__construct($context);
   }
 
@@ -35,12 +44,19 @@ class Save extends Action
    */
   public function execute()
   {
-    /** @var \Magento\Backend\Model\View\Result\Redirect $resultRedirect */
     $resultRedirect = $this->resultRedirectFactory->create();
-
     $data = $this->getRequest()->getPostValue();
 
     if ($data) {
+      // --- التحقق من البيانات (Validation) ---
+      // هذا هو السبب الأكثر احتمالاً للمشكلة
+      if (empty($data['department_id'])) {
+        $this->messageManager->addErrorMessage(__('Please select a department. It is a required field.'));
+        $this->_session->setFormData($data);
+        $id = $this->getRequest()->getParam('job_id');
+        return $resultRedirect->setPath('*/*/edit', ['job_id' => $id]);
+      }
+
       $id = $this->getRequest()->getParam('job_id');
       $model = $this->jobFactory->create();
 
@@ -52,24 +68,20 @@ class Save extends Action
         }
       }
 
-      // تحضير البيانات للحفظ
+      // --- معالجة التواريخ بالطريقة الصحيحة ---
+      // استخدم فلتر ماجنتو الموثوق بدلاً من strtotime
+      if (!empty($data['started_at'])) {
+        $data['started_at'] = $this->dateFilter->filter($data['started_at']);
+      }
+      if (!empty($data['ended_at'])) {
+        $data['ended_at'] = $this->dateFilter->filter($data['ended_at']);
+      } else {
+        // إذا كان تاريخ الانتهاء اختيارياً، قم بتعيينه إلى NULL لتجنب الأخطاء
+        $data['ended_at'] = null;
+      }
+
+      // تأكد من أن أسماء الحقول في الفورم (XML) تطابق أسماء الأعمدة في قاعدة البيانات
       $model->setData($data);
-
-      // تحويل التواريخ للتنسيق المطلوب
-      if (isset($data['job_started_at'])) {
-        $model->setJobStartedAt(date('Y-m-d H:i:s', strtotime($data['job_started_at'])));
-      }
-
-      if (isset($data['job_ended_at']) && !empty($data['job_ended_at'])) {
-        $model->setJobEndedAt(date('Y-m-d H:i:s', strtotime($data['job_ended_at'])));
-      }
-
-      // تعيين القيم المباشرة
-      $model->setJobTitle($data['job_title']);
-      $model->setJobLocation($data['job_location']);
-      $model->setJobType($data['job_type']);
-      $model->setJobStatus($data['job_status']);
-      $model->setJobDepartmentId($data['job_department_id']);
 
       try {
         $model->save();
@@ -77,20 +89,20 @@ class Save extends Action
         $this->_session->setFormData(false);
 
         if ($this->getRequest()->getParam('back')) {
-          return $resultRedirect->setPath('*/*/edit', ['job_id' => $model->getJobId()]);
+          return $resultRedirect->setPath('*/*/edit', ['id' => $model->getId()]);
         }
-
         return $resultRedirect->setPath('*/*/');
       } catch (LocalizedException $e) {
         $this->messageManager->addErrorMessage($e->getMessage());
       } catch (\Exception $e) {
-        $this->messageManager->addExceptionMessage($e, __('Something went wrong while saving the job.'));
+        // --- رسالة خطأ أوضح ---
+        // هذا سيوجهك إلى مكان الخطأ الحقيقي
+        $this->messageManager->addExceptionMessage($e, __('Something went wrong while saving the job. Please check the Magento exception log for details (var/log/exception.log).'));
       }
 
       $this->_session->setFormData($data);
       return $resultRedirect->setPath('*/*/edit', ['job_id' => $this->getRequest()->getParam('job_id')]);
     }
-
     return $resultRedirect->setPath('*/*/');
   }
 

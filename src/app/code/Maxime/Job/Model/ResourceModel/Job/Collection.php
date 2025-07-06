@@ -6,7 +6,7 @@ use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 
 class Collection extends AbstractCollection
 {
-  protected $_idFieldName = "job_id";
+  protected $_idFieldName = 'job_id';
 
   protected function _construct()
   {
@@ -22,7 +22,7 @@ class Collection extends AbstractCollection
 
     $this->getSelect()->joinLeft(
       ['d' => $this->getTable('maxime_department')],
-      'main_table.department_id = d.department_id',
+      'main_table.department_id = d.department_id', // تصحيح هنا
       ['department_name']
     );
 

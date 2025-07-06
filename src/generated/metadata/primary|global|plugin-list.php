@@ -4577,7 +4577,6 @@
         'instance' => 'Magento\\Theme\\Plugin\\Data\\Collection',
       ),
     ),
-    'Maxime\\Job\\Ui\\DataProvider\\Job\\JobGridDataProvider' => NULL,
     'JobGridFilterPool' => NULL,
     'Maxime\\Job\\Model\\ResourceModel\\Grid\\Job\\Collection' => 
     array (

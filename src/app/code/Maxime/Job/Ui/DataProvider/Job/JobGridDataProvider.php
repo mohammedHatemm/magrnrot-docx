@@ -8,7 +8,6 @@ use Maxime\Job\Model\ResourceModel\Job\CollectionFactory;
 class JobGridDataProvider extends AbstractDataProvider
 {
   protected $loadedData;
-  protected $collection;
 
   public function __construct(
     $name,
@@ -32,21 +31,24 @@ class JobGridDataProvider extends AbstractDataProvider
     $this->loadedData = [];
 
     foreach ($items as $item) {
+
       $itemData = [
         'job_id' => $item->getJobId(),
         'job_title' => $item->getJobTitle(),
         'job_location' => $item->getJobLocation(),
         'job_type' => $item->getJobType(),
         'job_started_at' => $item->getJobStartedAt(),
-        'job_ended_at' => $item->getJobEndedAt(), // إضافة تاريخ الانتهاء
+        'job_ended_at' => $item->getJobEndedAt(),
         'job_status' => $item->getJobStatus(),
-        'job_department_id' => $item->getJobDepartmentId(),
-        'job_department_name' => $item->getDepartmentName()
-
+        'department_id' => $item->getDepartmentId(),
+        'department_name' => $item->getDepartmentName()
       ];
-      $this->loadedData[$item->getJobId()] = $itemData;
+      $this->loadedData[] = $itemData;
     }
 
-    return $this->loadedData;
+    return [
+      'totalRecords' => $this->collection->getSize(),
+      'items' => $this->loadedData
+    ];
   }
 }
