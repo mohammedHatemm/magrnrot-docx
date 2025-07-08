@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="default">
+        <job name="maxime_job_say_ok" instance="Maxime\Job\Cron\SayOk" method="execute">
+            <schedule>* * * * *</schedule> <!-- كل دقيقة -->
+        </job>
+    </group>
+</config>

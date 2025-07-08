@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource
+                id="Maxime_Job::job_head"
+                title="Job"
+                sortOrder="100">
+
+                    <resource id="Maxime_Job::department"
+                    title="Department"
+                    sortOrder="10">
+
+                        <resource id="Maxime_Job::department_save"
+                        title="Department Save"/>
+                        <resource id="Maxime_Job::department_delete"
+                        title="Department Delete"/>
+                    </resource>
+
+                    <resource
+                    id="Maxime_Job::job"
+                     title="Job"
+                      sortOrder="20">
+                        <resource id="Maxime_Job::job_save" title="Job Save"/>
+                        <resource id="Maxime_Job::job_delete" title="Job Delete"/>
+                    </resource>
+
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
